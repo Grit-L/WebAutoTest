@@ -1,0 +1,12 @@
+LoginPage:
+  _username_locator: ['id', "loginId"]
+  _password_locator: ['id', "password_1"]
+  _login_locator: ['id', "subBtn"]
+
+HomePage:
+  _search_locator : ['id', 'searchIcon']
+  _search_input_locator : ['id', 'menuNameText']
+  _frame_name_locator : "index"
+  _search_result_locator : ['xpath', '//td[@selectwindow_td_key="name"]/span[@selectwindow_span_value="呼叫中心管理"]']
+  _search_btn_locator : ['class name', 'selBtn']
+  _tag_name_locator : ['tag name', 'body']
